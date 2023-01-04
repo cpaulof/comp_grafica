@@ -36,3 +36,5 @@ def create_random_triangle():
     c = (x + rand(-l_min*2, l_min*2), y+rand(l_min*3, l_max))
     a,b,c = ([clip(i) for i in k] for k in (a,b,c))
     return a, b, c
+
+

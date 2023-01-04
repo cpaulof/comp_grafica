@@ -118,21 +118,21 @@ class Ui_MainWindow(object):
 # "font-family: Perpetua, Serif;\n"
 # "font-weight:700;")
 #         self.pushButton_9.setObjectName("pushButton_9")
-        self.lineEdit = QtWidgets.QLineEdit(self.centralwidget)
-        self.lineEdit.setGeometry(QtCore.QRect(20, 610, 161, 31))
-        self.lineEdit.setStyleSheet("font-size: 16px;\n"
-"font-family: Perpetua, Serif;\n"
-"font-weight:700;")
-        self.lineEdit.setObjectName("lineEdit")
-        self.pushButton_10 = QtWidgets.QPushButton(self.centralwidget)
-        self.pushButton_10.setGeometry(QtCore.QRect(190, 610, 131, 31))
+#         self.lineEdit = QtWidgets.QLineEdit(self.centralwidget)
+#         self.lineEdit.setGeometry(QtCore.QRect(20, 610, 161, 31))
+#         self.lineEdit.setStyleSheet("font-size: 16px;\n"
+# "font-family: Perpetua, Serif;\n"
+# "font-weight:700;")
+        # self.lineEdit.setObjectName("lineEdit")
+        # self.pushButton_10 = QtWidgets.QPushButton(self.centralwidget)
+        # self.pushButton_10.setGeometry(QtCore.QRect(190, 610, 131, 31))
 #         self.pushButton_10.setStyleSheet("border: 2px solid #731;\n"
 # "border-radius: 7px;\n"
 # "background-color: #E2E2E2;\n"
 # "font-size: 13px;\n"
 # "font-family: Perpetua, Serif;\n"
 # "font-weight:700;")
-        self.pushButton_10.setObjectName("pushButton_10")
+        #self.pushButton_10.setObjectName("pushButton_10")
         MainWindow.setCentralWidget(self.centralwidget)
         self.menubar = QtWidgets.QMenuBar(MainWindow)
         self.menubar.setGeometry(QtCore.QRect(0, 0, 624, 21))
@@ -185,7 +185,7 @@ class Ui_MainWindow(object):
         self.pushButton_8.setText(_translate("MainWindow", "˃"))
         self.label_2.setText(_translate("MainWindow", "Rotacionar"))
         self.pushButton_9.setText(_translate("MainWindow", "LIMPAR"))
-        self.pushButton_10.setText(_translate("MainWindow", "Definir Background"))
+        #self.pushButton_10.setText(_translate("MainWindow", "Definir Background"))
 
 
 

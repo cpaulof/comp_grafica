@@ -97,7 +97,7 @@ class Canvas(QtWidgets.QOpenGLWidget):
             obj_2 = Object('poli', *obj['points'])
             rot(obj_2)
             obj['points'] = obj_2.points
-            print( obj_2.points)
+            #print( obj_2.points)
         self.paintGL()
         self.update()
     
